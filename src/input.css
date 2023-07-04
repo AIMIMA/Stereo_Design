@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .aim {
+    @apply flex justify-center items-center;
+  }
+
+  .bet {
+    @apply flex justify-between items-center;
+  }
+
+  .fontA {
+    font: var(--fa-font-solid);
+  }
+
+  .circle-sm {
+    @apply w-8 h-8 rounded-full shadow-shMain dark:shadow-shDark aim;
+  }
+
+  .circle-md {
+    @apply w-10 h-10 rounded-full shadow-shMain dark:shadow-shDark aim;
+  }
+
+  .active {
+    @apply bg-green-600 text-white;
+  }
+
+  .ani-rotate {
+    @apply absolute bg-red-600 origin-[80px_80px] animate-rot w-[7px] h-[7px] inset-x-[24px];
+  }
+}

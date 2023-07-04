@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./dist/all.min.css">
+  <link rel="stylesheet" href="./dist/output.css">
+  <title>Stereo</title>
+</head>
+
+<body class="bg-main dark:bg-gray-900 font-s">
+  <header
+    class="container absolute  left-1/2 -translate-x-1/2 mx-auto pt-5 px-5 bg-transparent flex justify-between items-center">
+    <a href="#" target="_blank" class="uppercase font-bold text-sec-900 dark:text-white text-3xl">stereo</a>
+    <div class="flex items-center gap-5 text-sec-200 dark:text-slate-400">
+      <button id="toggle-theme" class="relative cursor-pointer z-30 dark:invert">
+        <img src="../img/icon-dark.svg" alt="">
+      </button>
+      <i class="max-sm:hidden relative fa-solid fa-gear text-2xl text-sec-900 dark:text-white"></i>
+      <i
+        class="max-sm:hidden fa-regular fa-bell text-2xl text-sec-900 dark:text-white relative after:content-['9'] after:absolute after:text-xs after:bg-red-500 after:text-white after:rounded-full cursor-pointer after:w-5 after:h-5 after:aim after:-top-2.5 after:-right-3"></i>
+      <div class="capitalize text-sec-900 dark:text-white text-xl font-bold max-sm:hidden">Abdullah</div>
+      <img class="rounded-full cursor-pointer w-16 h-16" src="../img/images.jpeg" alt="">
+    </div>
+  </header>
+  <div class="wrapper">
+    <div
+      class="container min-h-screen pt-[130px] lg:max-h-screen p-5 mx-auto bet gap-12 max-lg:flex-wrap max-sm:flex-col">
+      <div class="socials bet flex-col gap-5 self-stretch">
+        <div class="category flex flex-col gap-5 max-sm:flex-row max-sm:flex-wrap max-sm:justify-center">
+          <div class="explore flex items-center gap-5" id="">
+            <i id=""
+              class="active fa-solid fa-magnifying-glass cursor-pointer circle-md transition-all duration-300"></i>
+            <p class="capitalize text-sec-900 dark:text-white font-bold">explore</p>
+          </div>
+          <div class="music flex items-center gap-5">
+            <i class="fa-solid fa-music cursor-pointer circle-md text-cyan-500 transition-all duration-300"></i>
+            <p class="capitalize text-sec-900 dark:text-white font-bold">music</p>
+          </div>
+          <div class="artists flex items-center gap-5">
+            <i class="fa-regular fa-circle-user cursor-pointer circle-md text-cyan-500 transition-all duration-300"></i>
+            <p class="capitalize text-sec-900 dark:text-white font-bold">artists</p>
+          </div>
+          <div class="albums flex items-center gap-5">
+            <i
+              class="fa-regular fa-folder-closed cursor-pointer circle-md text-cyan-500 transition-all duration-300"></i>
+            <p class="capitalize text-sec-900 dark:text-white font-bold">albums</p>
+          </div>
+        </div>
+        <div class="soc-link flex flex-col items-center gap-5 max-sm:flex-row max-sm:flex-wrap max-sm:justify-center">
+          <i class="fa-brands fa-instagram aim bg-[#e1306c] text-white cursor-pointer circle-sm"></i>
+          <i class="fa-brands fa-facebook aim bg-[#29487d] text-white cursor-pointer circle-sm"></i>
+          <i class="fa-brands fa-soundcloud aim bg-[#ff5836] text-white cursor-pointer circle-sm"></i>
+        </div>
+      </div>
+      <div class="main bet flex-1 flex-col gap-5 max-lg:order-last self-stretch">
+        <div class="info w-full bet gap-5 max-sm:flex-row max-sm:flex-wrap max-sm:justify-center max-lg:text-center">
+          <div class="text font-bold space-y-2.5 text-sec-900 dark:text-white capitalize">
+            <h2 class="text-5xl">blinding<span class="block">lights</span></h2>
+            <p class="text-xl">the weekend</p>
+            <p class="max-w-[300px] text-sm text-sec-200 dark:text-slate-400">after silence, that
+              which comes nearest to expressing the
+              inexpressible</p>
+          </div>
+          <div
+            class="photo relative before:fontA before:content-['\f04b'] before:absolute before:z-50 before:bottom-0 before:left-1/2 before:-translate-x-1/2 before:bg-green-600 before:text-white before:cursor-pointer before:circle-sm before:shadow-none after:content-[''] after:absolute after:w-[107%] after:h-[107%] hover:after:border-8 after:transition-all after:duration-300 after:border-red-500 after:-top-[7px] after:-left-[7px] after:rounded-full after:border-solid after:rotate-45">
+            <img class="rounded-full p-3 w-52 h-52 outline-8 outline outline-sec-100 dark:outline-secDark-100"
+              src="../img/images.jpeg" alt="">
+          </div>
+        </div>
+        <div class="players bet items-end w-full gap-5 max-sm:flex-row max-sm:flex-wrap max-sm:aim">
+          <div class="box shadow-shMain dark:shadow-shDark rounded-xl p-5 px-10 aim flex-col gap-4">
+            <img class="w-16 h-16 rounded-full cursor-pointer" src="../img/images (2).jpeg" alt="">
+            <h3 class="text-center text-lg font-bold capitalize text-sec-900 dark:text-white">intentions<span
+                class="block mt-1 text-xs text-sec-200 dark:text-slate-400">justin bieber</span>
+            </h3>
+            <img class="equ w-32 h-10" src="../img/eq-dark.png" alt="">
+            <div class="bet gap-5">
+              <i class="fa-solid fa-backward-step bg-white cursor-pointer circle-sm"></i>
+              <i class="fa-solid fa-play bg-green-600 text-white cursor-pointer circle-md"></i>
+              <i class="fa-solid fa-forward-step bg-white cursor-pointer circle-sm"></i>
+            </div>
+          </div>
+          <div class="card rounded-xl space-y-1.5 text-sec-900 dark:text-white p-5 shadow-shMain dark:shadow-shDark">
+            <h3 class="text-3xl font-bold">01</h3>
+            <p class="text-sec-200 dark:text-slate-400">Classical</p>
+            <p class="text-sec-200 dark:text-slate-400">music</p>
+            <p class="text-sec-200 dark:text-slate-400">collections</p>
+            <div class="flex items-center gap-2.5">
+              <i
+                class="fa-regular rounded-full cursor-pointer fa-folder-closed shadow-shMain dark:shadow-shDark p-2"></i>
+              <p class="text-xs">196 Songs</p>
+            </div>
+          </div>
+          <div class="card rounded-xl space-y-1.5 text-sec-900 dark:text-white p-5 shadow-shMain dark:shadow-shDark">
+            <h3 class="text-3xl font-bold">02</h3>
+            <p class="text-sec-200 dark:text-slate-400">Pop</p>
+            <p class="text-sec-200 dark:text-slate-400">music</p>
+            <p class="text-sec-200 dark:text-slate-400">collections</p>
+            <div class="flex items-center gap-2.5">
+              <i
+                class="fa-regular rounded-full cursor-pointer fa-folder-closed shadow-shMain dark:shadow-shDark p-2"></i>
+              <p class="text-xs">82 Songs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="downloads flex flex-col gap-5 self-stretch max-lg:text-center">
+        <h2 class="capitalize text-sec-900 dark:text-white font-bold text-2xl">download</h2>
+        <div class="content bet flex-1 flex-col max-sm:flex-row max-sm:flex-wrap max-sm:aim">
+          <div class="shadow-shMain dark:shadow-shDark rounded-xl p-5 flex items-center gap-2.5">
+            <img class="w-12 h-12 rounded-full cursor-pointer" src="../img/images (1).jpeg" alt="">
+            <h3 class="text-center text-lg font-bold capitalize text-sec-900 dark:text-white">intentions<span
+                class="block mt-1 text-xs text-sec-200 dark:text-slate-400">justin bieber</span>
+            </h3>
+            <i
+              class="fa-solid fa-pause text-sec-200 dark:text-slate-400 border-4 border-solid border-sec-100 dark:border-secDark-100 cursor-pointer circle-sm"></i>
+          </div>
+          <div class="shadow-shMain dark:shadow-shDark rounded-xl p-5 flex items-center gap-2.5">
+            <img class="w-12 h-12 rounded-full cursor-pointer" src="../img/images (1).jpeg" alt="">
+            <h3 class="text-center text-lg font-bold capitalize text-sec-900 dark:text-white">intentions<span
+                class="block mt-1 text-xs text-sec-200 dark:text-slate-400">justin bieber</span>
+            </h3>
+            <i
+              class="fa-solid fa-arrow-down text-sec-200 dark:text-slate-400 border-4 border-solid border-sec-100 dark:border-secDark-100 cursor-pointer circle-sm"></i>
+          </div>
+          <div class="shadow-shMain dark:shadow-shDark rounded-xl p-5 flex items-center gap-2.5">
+            <img class="w-12 h-12 rounded-full cursor-pointer" src="../img/images (1).jpeg" alt="">
+            <h3 class="text-center text-lg font-bold capitalize text-sec-900 dark:text-white">intentions<span
+                class="block mt-1 text-xs text-sec-200 dark:text-slate-400">justin bieber</span>
+            </h3>
+            <i
+              class="fa-solid fa-pause text-sec-200 dark:text-slate-400 border-4 border-solid border-sec-100 dark:border-secDark-100 cursor-pointer circle-sm"></i>
+          </div>
+          <div class="shadow-shMain dark:shadow-shDark rounded-xl p-5 flex items-center gap-2.5">
+            <img class="w-12 h-12 rounded-full cursor-pointer" src="../img/images (1).jpeg" alt="">
+            <h3 class="text-center text-lg font-bold capitalize text-sec-900 dark:text-white">intentions<span
+                class="block mt-1 text-xs text-sec-200 dark:text-slate-400">justin bieber</span>
+            </h3>
+            <i
+              class="fa-solid fa-arrow-down text-sec-200 dark:text-slate-400 border-4 border-solid border-sec-100 dark:border-secDark-100 cursor-pointer circle-sm"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
